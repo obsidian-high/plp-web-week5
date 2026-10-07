@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SpendWise - JavaScript Foundation</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="brand">
+                <h1>SpendWise</h1>
+                <p>Smart money management</p>
+            </div>
+
+            <nav class="navigation" aria-label="Main navigation">
+
+                <a href="#" class="nav-item active">
+                    <span aria-hidden="true">📊</span>
+                    Dashboard
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span aria-hidden="true">💳</span>
+                    Expenses
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span aria-hidden="true">💰</span>
+                    Income
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span aria-hidden="true">🎯</span>
+                    Budgets
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span aria-hidden="true">📈</span>
+                    Reports
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span aria-hidden="true">⚙️</span>
+                    Settings
+                </a>
+
+            </nav>
+
+            <div class="sidebar-footer">
+                <p>JavaScript Foundation</p>
+            </div>
+
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Header -->
+            <header class="dashboard-header">
+
+                <div class="header-text">
+                    <p class="welcome-text">Welcome to</p>
+                    <h2>SpendWise Dashboard</h2>
+                </div>
+
+                <div class="header-actions">
+
+                    <div class="balance">
+                        <span>Current Status</span>
+                        <strong>Budget Tracker</strong>
+                    </div>
+
+                    <div class="profile" aria-label="User profile">
+                        HA
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <!-- Information -->
+            <section class="intro-card">
+
+                <p>JavaScript Foundation</p>
+
+                <h3>
+                    Calculate your remaining budget
+                </h3>
+
+                <p>
+                    SpendWise uses JavaScript to collect your budget and
+                    expenses, perform calculations, and display the results
+                    in the browser console.
+                </p>
+
+                <button onclick="startBudgetCalculator()">
+                    Start Budget Calculator
+                </button>
+
+            </section>
+
+
+            <!-- Category Cards -->
+            <section class="dashboard-grid" aria-label="Financial categories">
+
+                <article class="category-card">
+                    <div class="card-icon">🍔</div>
+
+                    <div class="card-content">
+                        <p>Food</p>
+                        <h3>Track Expenses</h3>
+                        <span>Monitor food spending</span>
+                    </div>
+                </article>
+
+
+                <article class="category-card">
+                    <div class="card-icon">🚗</div>
+
+                    <div class="card-content">
+                        <p>Transport</p>
+                        <h3>Track Expenses</h3>
+                        <span>Monitor transport costs</span>
+                    </div>
+                </article>
+
+
+                <article class="category-card">
+                    <div class="card-icon">🏠</div>
+
+                    <div class="card-content">
+                        <p>Rent</p>
+                        <h3>Track Expenses</h3>
+                        <span>Monitor housing costs</span>
+                    </div>
+                </article>
+
+
+                <article class="category-card">
+                    <div class="card-icon">🎮</div>
+
+                    <div class="card-content">
+                        <p>Entertainment</p>
+                        <h3>Track Expenses</h3>
+                        <span>Monitor entertainment costs</span>
+                    </div>
+                </article>
+
+
+                <article class="category-card">
+                    <div class="card-icon">💰</div>
+
+                    <div class="card-content">
+                        <p>Savings</p>
+                        <h3>Build Savings</h3>
+                        <span>Track money saved</span>
+                    </div>
+                </article>
+
+
+                <article class="category-card">
+                    <div class="card-icon">💡</div>
+
+                    <div class="card-content">
+                        <p>Utilities</p>
+                        <h3>Track Expenses</h3>
+                        <span>Monitor utility bills</span>
+                    </div>
+                </article>
+
+            </section>
+
+
+            <!-- JavaScript Concepts -->
+            <section class="summary-card">
+
+                <div class="summary-header">
+
+                    <div>
+                        <p>JavaScript Concepts</p>
+                        <h3>SpendWise Foundation</h3>
+                    </div>
+
+                </div>
+
+                <div class="summary-details">
+
+                    <div>
+                        <span>Variables</span>
+                        <strong>Budget Data</strong>
+                    </div>
+
+                    <div>
+                        <span>User Input</span>
+                        <strong>Prompt</strong>
+                    </div>
+
+                    <div>
+                        <span>Calculations</span>
+                        <strong>Balance</strong>
+                    </div>
+
+                    <div>
+                        <span>Functions</span>
+                        <strong>Reusable Logic</strong>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
